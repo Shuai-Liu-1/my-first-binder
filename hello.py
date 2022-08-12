@@ -6,6 +6,7 @@ numpy.random.randn()
 import pandas
 print(pandas.__version__)
 
+import pandas as pd
+df=pd.DataFrame({'legs':[2,4],'wings':[2,0]})
+print(df)
 
-import seaborn as sns
-print(seaborn.__version__)
